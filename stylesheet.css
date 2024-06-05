@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  font-family: "Prompt", sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  column-gap: 0.1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cell {
+  margin: 0.5rem;
+}
+.blue {
+  display: flex;
+  background: #0066ff;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.layer1 {
+  background-image: url("./layered-waves.png");
+}
+
+.waves {
+  width: 120%;
+  height: 100%;
+  min-height: 20rem;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+  resize: both;
+  background-image: url("./layered-waves.png");
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.red {
+  background: rgb(255, 0, 0);
+}
+
+.green {
+  background: rgb(0, 255, 0);
+}
